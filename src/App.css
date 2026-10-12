@@ -1,0 +1,41 @@
+
+.login {
+  max-width: 350px;
+  margin: 80px auto;
+  padding: 30px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px #dce5e8;
+}
+
+.login h1 {
+  color: #087f8c;
+}
+
+.login input,
+.login button {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 8px;
+}
+
+.login input {
+  border: 1px solid #ccc;
+}
+
+.login button {
+  color: white;
+  background: #087f8c;
+  border: none;
+  cursor: pointer;
+}
+
+.login p {
+  color: #087f8c;
+  cursor: pointer;
+}
+
