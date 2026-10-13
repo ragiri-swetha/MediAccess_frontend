@@ -114,7 +114,7 @@ export default function Home() {
   const t = translations[language];
 
   useEffect(() => {
-   fetch('http://127.0.0.1:8080/api/medicines')
+   fetch('/api/medicines')
       .then((response) => {
         if (!response.ok) {
           throw new Error('Medicine loading failed');
